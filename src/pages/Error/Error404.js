@@ -6,7 +6,7 @@ function Error404() {
         <>
             <div>
                 <h1>404</h1>
-                <div>Oups !</div>
+                <div>Oups! La page que vous demandez n'existe pas.<p></p></div>
                 <Link to="/">Retourner sur la home page</Link>
             </div>
         </>

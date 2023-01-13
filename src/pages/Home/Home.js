@@ -1,7 +1,8 @@
 import './Home.css'
-
 import {Link} from 'react-router-dom'
 import logementData from '../../data/logement_data.json'
+
+
 
 function Home() {
 
@@ -9,9 +10,8 @@ function Home() {
         <>
             <section>
                 <div>
-                    <div>
-                        <p>Chez vous ..</p>
-                    </div>
+                    <p>Chez vous ..</p>
+
                 </div>
                 <div id="rectangle">
                     {logementData.map((l) => (

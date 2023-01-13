@@ -1,0 +1,11 @@
+button img {
+    color: black;
+}
+.container-description{
+    position: absolute;
+    width: 582px;
+    height: 52px;
+    left: 100px;
+    top: 719px;
+
+}

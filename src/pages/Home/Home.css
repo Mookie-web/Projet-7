@@ -1,29 +1,37 @@
-/*p{*/
-/*    position: absolute;*/
-/*    left: 25.9%;*/
-/*    right: 25.14%;*/
-/*    top: 24.32%;*/
-/*    bottom: 69.04%;*/
-
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 500;*/
-/*    font-size: 48px;*/
-/*    line-height: 142.6%;*/
-/*    !* or 68px *!*/
-
-/*    display: flex;*/
-/*    align-items: flex-end;*/
-
-/*    color: #FFFFFF;*/
-/*}*/
-#rectangle{
+section {
     position: absolute;
-    left: 4.03%;
-    right: 68.55%;
-    top: 6.76%;
-    bottom: 52.23%;
-    width: 340px;
-    height: 340px;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
 
 }
+/*!*section p {*!*/
+/*!*    position: absolute;*!*/
+/*!*    left: 25.9%;*!*/
+/*!*    right: 25.14%;*!*/
+/*!*    top: 24.32%;*!*/
+/*!*    bottom: 69.04%;*!*/
+
+/*!*    font-family: 'Montserrat', sans-serif;*!*/
+/*!*    font-style: normal;*!*/
+/*!*    font-weight: 500;*!*/
+/*!*    font-size: 48px;*!*/
+/*!*    line-height: 142.6%;*!*/
+/*!*    !* or 68px *!*!*/
+
+/*!*    display: flex;*!*/
+/*!*    align-items: flex-end;*!*/
+
+/*!*    color: #FFFFFF;*!*/
+/*}*/
+/*#rectangle{*/
+/*    position: absolute;*/
+/*    left: 4.03%;*/
+/*    right: 68.55%;*/
+/*    top: 6.76%;*/
+/*    bottom: 52.23%;*/
+/*    width: 340px;*/
+/*    height: 340px;*/
+
+/*}*/

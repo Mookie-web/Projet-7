@@ -1,0 +1,50 @@
+.carousel-container{
+    position: absolute;
+    /*width: 1240px;*/
+    height: 415px;
+    top: 128px;
+    border-radius: 25px;
+    display: flex;
+    transition: transform .5s ease;
+    width: 100%;
+    margin-bottom: 35px;
+
+}
+.slide{
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.arrowRight{
+    position: absolute;
+    left: 92.26%;
+    right: 0;
+    top: 33.93%;
+    bottom: 37.24%;
+}
+.arrowLeft{
+    position: absolute;
+    left: 0;
+    right: 92.26%;
+    top: 35.74%;
+    bottom: 35.44%;
+}
+.slideNumber {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* or 26px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+}
