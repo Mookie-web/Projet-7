@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { useParams } from 'react-router-dom';
-
+import "../location/Location.css"
 import dataLocation from '../../data/logement_data.json'
 
 function Location () {
@@ -14,8 +14,8 @@ function Location () {
 
     return (
         <div>
-            <p>{logement.title}</p>
-            <p>{logement.location}</p>
+            <p className="container-title">{logement.title}</p>
+            <p className="container-location">{logement.location}</p>
         </div>
     )
 
