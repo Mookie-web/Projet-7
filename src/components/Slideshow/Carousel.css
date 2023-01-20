@@ -1,8 +1,4 @@
 .carousel-container{
-    position: absolute;
-    /*width: 1240px;*/
-    height: 415px;
-    top: 128px;
     border-radius: 25px;
     display: flex;
     transition: transform .5s ease;
@@ -15,6 +11,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 25px;
+    margin-top: 3%;
 }
 .arrowRight{
     position: absolute;
@@ -25,15 +22,15 @@
 }
 .arrowLeft{
     position: absolute;
-    left: 0;
-    right: 92.26%;
-    top: 35.74%;
+    /*left: 0;*/
+    right: 86.40%;
+    top: 105.74%;
     bottom: 35.44%;
 }
 .slideNumber {
     position: absolute;
     left: 50%;
-    top: 95%;
+    top: 130%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

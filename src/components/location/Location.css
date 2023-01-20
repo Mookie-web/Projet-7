@@ -1,9 +1,6 @@
 .container-title {
-    position: absolute;
-    left: 1%;
-    right: 48.96%;
-    top: 252%;
-    bottom: 39.06%;
+
+
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -18,7 +15,7 @@
     color: #FF6060;
 }
 .container-location{
-    position: absolute;
+
     left: 1%;
     right: 70%;
     top: 275%;

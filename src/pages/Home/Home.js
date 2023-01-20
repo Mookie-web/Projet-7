@@ -9,11 +9,14 @@ function Home() {
     return (
         <>
             <section className="location_container">
-                <div>
-                    <p>Chez vous ..</p>
+                <div className="chezVous">
 
+                    <div className="picture">
+                    <p className="pPicture">Chez vous ..</p>
+                    </div>
                 </div>
                 <div className="loader_wrapper">
+
                     {logementData.map((l) => (
                         <Link key={l.id} to={`/logement/${l.id}`}>
                             <div className="rectangle" style={{

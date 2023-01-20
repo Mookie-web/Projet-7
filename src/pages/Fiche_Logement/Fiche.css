@@ -1,7 +1,21 @@
-body{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
+.Collapse-style {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Description {
+    width: 582px;
+    height: 330px;
+    border-radius: 10px;
+    top: 42px;
+}
 
-    background: #FFFFFF;
+.Equipements {
+    width: 582px;
+    height: 330px;
+    border-radius: 10px;
+    top: 42px;
+}
+.Description.closed {
+    background-color: transparent;
 }
