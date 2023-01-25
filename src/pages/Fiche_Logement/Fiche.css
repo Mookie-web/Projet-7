@@ -1,21 +1,31 @@
 .Collapse-style {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 10%;
 }
 .Description {
-    width: 582px;
+    width: 50%;
     height: 330px;
     border-radius: 10px;
     top: 42px;
 }
 
 .Equipements {
-    width: 582px;
+    width: 50%;
     height: 330px;
     border-radius: 10px;
     top: 42px;
 }
 .Description.closed {
     background-color: transparent;
+}
+.container-info{
+    display: flex;
+    justify-content: space-between;
+}
+.container-flex-tag {
+    display: flex;
+    gap: 3%;
+    margin-bottom: 2%;
+
 }

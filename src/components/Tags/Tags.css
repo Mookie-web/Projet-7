@@ -1,34 +1,18 @@
-/*Width*/
-/*115px*/
-/*   Height*/
-/*25px*/
-/*  Radius*/
-/*10px*/
-/*background: #FF6060;*/
-
-/*border-radius: 10px;*/
-
-
-/*#FF6060*/
-.container-flex {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
 .container-tag {
-    width: 115px;
-    height: 28px;
+    width: 150px;
+    height: 35px;
     border-radius: 10px;
     background: #FF6060;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 142.6%;
     text-align: center;
-
-    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 
 }

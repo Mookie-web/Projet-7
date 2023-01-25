@@ -12,7 +12,7 @@ function Home() {
                 <div className="chezVous">
 
                     <div className="picture">
-                    <p className="pPicture">Chez vous ..</p>
+                    <p className="pPicture">Chez vous, partout et ailleurs</p>
                     </div>
                 </div>
                 <div className="loader_wrapper">

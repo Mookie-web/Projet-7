@@ -19,8 +19,8 @@
     display: block;
     background: #F7F7F7;
     border-radius: 10px;
-    width: 582px;
-    height: 330px;
+    width: 100%;
+    max-height: 282px;
     padding: 40px 12px 27px 20px;
 }
 

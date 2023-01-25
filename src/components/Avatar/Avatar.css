@@ -1,0 +1,17 @@
+.container-avatar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-img-avatar img {
+    border-radius: 50%;
+}
+.container-h1-avatar {
+    color: #FF6060;
+    display: flex;
+    /* justify-content: center; */
+    align-items: self-end;
+    /* gap: 5%; */
+    width: 34%;
+    height: 119px;
+}
+
