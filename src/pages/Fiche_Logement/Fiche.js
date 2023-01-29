@@ -8,6 +8,7 @@ import {useParams} from "react-router-dom";
 import Tags from "../../components/Tags/Tags";
 import Avatar from "../../components/Avatar/Avatar";
 import Rate from "../../components/Rate/Rate";
+import Error404 from "../Error/Error404";
 
 
 function Fiche() {
@@ -28,6 +29,10 @@ function Fiche() {
             return null
         })
     }, [id]);
+
+    if (logement.id === undefined) {
+        return <Error404 />;
+    }
 
     const logementDescription = logement.description;
     const logementEquipement = logement.equipments;
@@ -64,36 +69,15 @@ function Fiche() {
 
                             </div>
                         </div>
-                        {/*<div >*/}
-
-                        {/*    <div>*/}
-
-                        {/*    </div>*/}
-
-                        {/*</div>*/}
-
-                        {/*<div>*/}
-                        {/*    <div>*/}
-
-                        {/*    </div>*/}
-
-                        {/*    <div>*/}
-
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
                     </div>
 
-                    <div className='Collapse-style'>
-                        <div className="Description">
-                            <AccordionLogement title="Description" content={logementDescription}/>
-                        </div>
-                        <div className="Equipements">
-                            <AccordionLogement title="Equipements" content={mapLogementEquipement}/>
-                        </div>
-
+                    <div className="CollapseLogement">
+                        <AccordionLogement title="Description" content={logementDescription} />
+                        <AccordionLogement
+                            title="Equipements"
+                            content={<div className="equipments">{mapLogementEquipement}</div>}
+                        />
                     </div>
-
                 </div>
 
             </section>

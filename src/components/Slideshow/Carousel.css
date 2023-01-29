@@ -42,3 +42,16 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+    .arrowLeft {
+        width: 7%;
+        right: 93%;
+        top: 40%;
+    }
+    .arrowRight {
+        width: 7%;
+        left: 93%;
+        top: 40%;
+    }
+}

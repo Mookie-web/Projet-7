@@ -1,17 +1,33 @@
-footer {
-    background-color: #000;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    color:white;
-    justify-content: center;
-    margin: 60px auto 0;
-}
+/*footer {*/
+/*    background-color: #000;*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    align-items: center;*/
+/*    color:white;*/
+/*    justify-content: center;*/
+/*    margin: 60px auto 0;*/
+/*}*/
 
-.footerDiv{
-    padding:60px 30px 30px;
-    align-content: center;
-    display:flex;
-    flex-direction: column;
+/*.footerDiv{*/
+/*    padding:60px 30px 30px;*/
+/*    align-content: center;*/
+/*    display:flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*}*/
+.kasa-Footer {
+    background-color: black;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.logo_Kasa_Footer {
+    filter: brightness(5);
+    width: 20%;
+    padding: 40px;
+}
+.kasa-footer-elem {
+    color: white;
 }

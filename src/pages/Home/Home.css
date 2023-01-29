@@ -66,16 +66,12 @@
 
 
 @media (max-width: 768px) {
-    .loader_wrapper {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        width: 100%;
+   a {
+       width: 100%;
+   }
+    .rectangle {
+        height: 856px;
+        width: 92%;
     }
-    /*.rectangle {*/
-    /*    max-width: 800px;*/
-    /*    min-height: 400px;*/
-    /*    width: 100%;*/
-    /*}*/
 }
 

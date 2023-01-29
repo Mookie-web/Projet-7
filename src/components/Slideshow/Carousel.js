@@ -8,7 +8,7 @@ const data = require('../../data/logement_data.json');
 
 function Slider() {
     const { id } = useParams();
-    const [logement, setLogement] = useState({});
+    const [logement, setLogement] = useState({pictures:[]});
     const [current, setCurrent] = useState(0);
 
     useEffect(() => {
@@ -23,15 +23,19 @@ function Slider() {
     const prevSlide = () => {
         setCurrent(current === 0 ? logement.pictures.length - 1 : current - 1);
     }
-
+    if(logement.pictures.length <= 0) {
+        return null
+    }
     if (!logement.pictures) return <div>Loading...</div>
+
 
     return (
         <>
             <div className="carousel-container">
-            <img src={leftArrow} alt="previous" onClick={prevSlide} className="arrowLeft"/>
-            <img src={logement.pictures[current]} alt="slide" className="slide" />
-            <img src={rightArrow} alt="next" onClick={nextSlide} className="arrowRight"/>
+                <img src={leftArrow} alt="previous" onClick={prevSlide} className="arrowLeft"/>
+                <img src={logement.pictures[current]} alt="slide" className="slide" />
+
+                <img src={rightArrow} alt="next" onClick={nextSlide} className="arrowRight"/>
             <div className="slideNumber"> {current + 1} / {logement.pictures.length} </div>
 
         </div>
