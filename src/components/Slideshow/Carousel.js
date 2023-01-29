@@ -31,14 +31,25 @@ function Slider() {
 
     return (
         <>
-            <div className="carousel-container">
-                <img src={leftArrow} alt="previous" onClick={prevSlide} className="arrowLeft"/>
-                <img src={logement.pictures[current]} alt="slide" className="slide" />
+            <section className="sectionSlider">
+                <div style={{
+                    backgroundImage: `
+                        url(${(logement.pictures[current])}`
+                }}>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <span className="slideNumber">{current + 1} / {logement.pictures.length}</span>
+                    {/*<div className="slideNumber"> {current + 1} / {logement.pictures.length}</div>*/}
+                    {/*<img src={logement.pictures[current]} alt="slide" className="slide" />*/}
 
-                <img src={rightArrow} alt="next" onClick={nextSlide} className="arrowRight"/>
-            <div className="slideNumber"> {current + 1} / {logement.pictures.length} </div>
+                </div>
+            {/*    <img src={leftArrow} alt="previous" onClick={prevSlide} className="arrowLeft"/>*/}
+            {/*    */}
 
-        </div>
+            {/*    <img src={rightArrow} alt="next" onClick={nextSlide} className="arrowRight"/>*/}
+
+
+            </section>
 
         </>
 

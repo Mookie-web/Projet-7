@@ -48,9 +48,7 @@ function Fiche() {
                     <Slider/>
                 </div>
                 <div>
-
-                    <div>
-                        <div className='container-info'>
+                    <div className='container-info'>
                             <div>
                                 <div>
                                     <Location/>
@@ -66,10 +64,9 @@ function Fiche() {
                                         <Rate rating={logement.rating}/>
                                     </div>
                                 </div>
-
                             </div>
-                        </div>
                     </div>
+
 
                     <div className="CollapseLogement">
                         <AccordionLogement title="Description" content={logementDescription} />

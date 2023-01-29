@@ -1,11 +1,15 @@
-.carousel-container{
-    border-radius: 25px;
-    display: flex;
-    transition: transform .5s ease;
-    width: 100%;
-    margin-bottom: 35px;
+/*.carousel-container{*/
+/*    border-radius: 25px;*/
+/*    transition: transform .5s ease;*/
+/*    width: 100%;*/
+/*    margin-bottom: 35px;*/
 
+/*}*/
+.sectionSlider {
+    width: 100%;
+    margin: 0 auto;
 }
+
 .slide{
     width: 100%;
     height: 484px;
