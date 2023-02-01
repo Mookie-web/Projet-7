@@ -16,7 +16,7 @@ function Home() {
             </div>
             <div className='loader_wrapper'>
                 {logementData.map((l) => (
-                    <Link key={l.id} to={`/ficheLogement/${l.id}`}>
+                    <Link key={l.id} to={`/Fiche/${l.id}`}>
                         <div className="rectangle"
                              style={{
                                  backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%), 

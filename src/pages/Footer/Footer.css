@@ -31,3 +31,13 @@
 .kasa-footer-elem {
     color: white;
 }
+
+@media (max-width: 767px) {
+    .logo_Kasa_Footer {
+        width: 40%;
+        padding: 18px;
+    }
+    .kasa-footer-elem {
+        font-size: 12px;
+    }
+}
