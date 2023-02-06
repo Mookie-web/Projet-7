@@ -37,9 +37,6 @@
 }
 
 @media (max-width: 992px){
-    /*header {*/
-    /*    width: 80%;*/
-    /*}*/
     .error_title{
         font-size: 126px;
         font-weight: 700;
@@ -56,17 +53,9 @@
 @media (max-width: 768px){
     .homepage,.about{
         font-size: 20px;
+        padding: 13px 0px 13px 10px;
     }
     .error_text{
-        /*font-size: 18px;*/
-        /*line-height: 25.67px;*/
-        /*text-align: center;*/
-        /*padding: 10px;*/
-        /*height: 52px;*/
-        /*width: 260px;*/
-        /*left: 57px;*/
-        /*top: 372px;*/
-        /*border-radius: 0;*/
         padding-bottom: 6%;
         font-size: 26px;
         line-height: 30.67px;

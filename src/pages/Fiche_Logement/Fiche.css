@@ -1,7 +1,3 @@
-/*.container-info{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
 .container-flex-tag {
     display: flex;
     color: #FFFFFF;
@@ -9,36 +5,6 @@
     gap: 2%;
 }
 
-/*}*/
-/*.CollapseLogement {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    margin-bottom: 5%;*/
-/*    gap: 5%;*/
-/*}*/
-
-/*.CollapseLogement .false {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: 50%;*/
-/*    justify-content: flex-start;*/
-/*    margin: 0 0 0 0;*/
-/*}*/
-
-/*.CollapseLogement .active {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: 50%;*/
-/*    justify-content: flex-start;*/
-/*    margin: 0 0 0 0;*/
-/*}*/
-
-/*.AccordionLogement div {*/
-/*    border-radius: 10px;*/
-/*}*/
-/*@media (max-width: 768px){*/
-
-/*}*/
 .infoLogementContainer {
     margin: 0 2.5%;
     display: flex;
@@ -106,10 +72,7 @@
     margin: 5px;
 }
 
-
 /* RESPONSIVE */
-
-
 
 @media (max-width: 799px){
 
