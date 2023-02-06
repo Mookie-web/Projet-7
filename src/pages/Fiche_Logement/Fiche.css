@@ -34,8 +34,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 10px !important;
-    margin: 0;
+    /*margin-right: 10px !important;*/
+    /*margin: 0;*/
 }
 
 .tag {

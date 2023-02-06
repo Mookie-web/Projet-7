@@ -92,10 +92,14 @@
         max-width: 100%;
     }
 
+    .pPicture {
+        padding: 10px;
+    }
     .pPicture p  {
         font-size:  25px;
         height: 111px;
         margin: 0 auto;
+        padding: 10px;
     }
 
 }

@@ -13,7 +13,6 @@
     border: none;
     border-radius: 25px;
     background-position: center;
-    display: flex;
     object-fit: cover;
     background-size: cover;
 }
@@ -32,7 +31,6 @@
     border-radius: 25px;
     width: 100%;
     height: 415px;
-    /* margin: 0 2.5%; */
     display: flex;
 }
 
@@ -80,6 +78,7 @@
 
     .slider {
         height: 100%;
+        padding: 10px;
     }
 
     .slider .active {
