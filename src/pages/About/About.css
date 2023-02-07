@@ -1,36 +1,190 @@
-/********** Desktop ************/
-.main_about {
-    background-color : white;
-    padding: 0 6%;
-}
-/*Banner*/
-.banner{
-    display:flex;
-    position:relative;
-    background: rgba(0,0,0,.9);
-    border-radius: 25px;
-    align-items: center;
-    justify-content: center;
-    height : 223px;
-    margin-top: 4%;
-}
-.banner_img{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    border-radius: 25px;
-    opacity: 0.6;
-}
-/*Section*/
-.section_about {
+/*!********** Desktop ************!*/
+/*.main_about {*/
+/*    background-color : white;*/
+/*    padding: 0 6%;*/
+/*}*/
+/*!*Banner*!*/
+/*.banner{*/
+/*    display:flex;*/
+/*    position:relative;*/
+/*    background: rgba(0,0,0,.9);*/
+/*    border-radius: 25px;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height : 223px;*/
+/*    margin-top: 4%;*/
+/*}*/
+/*.banner_img{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: auto;*/
+/*    border-radius: 25px;*/
+/*    opacity: 0.6;*/
+/*}*/
+/*!*Section*!*/
+/*.section_about {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-top : 30px;*/
+/*    margin-bottom : 30px;*/
+/*    gap: 30px;*/
+/*}*/
+/*.collapse_about_container{*/
+/*    width: 85%;*/
+/*    font-size: 24px;*/
+/*}*/
+/*!********** Tablette **********!*/
+/*@media (max-width: 992px){*/
+/*    .main_about {*/
+/*        background-color : white;*/
+/*        margin: 20px 20px;*/
+/*        width: 85%;*/
+/*        padding: 20px;*/
+/*    }*/
+/*    !*Banner*!*/
+/*    .banner{*/
+/*        height:110px;*/
+/*        border-radius: 10px;*/
+
+/*    }*/
+/*    .banner_img{*/
+/*        height:110px;*/
+/*        border-radius: 10px;*/
+/*        -o-object-fit: cover;*/
+/*        object-fit: cover;*/
+/*    }*/
+/*    .collapse_about_container{*/
+/*        font-size: 20px;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*!************* Mobile *******************!*/
+/*@media (max-width: 768px){*/
+/*    .main_about {*/
+/*        margin: 15px 15px;*/
+/*        width: 83%;*/
+/*        padding : 0 10px;*/
+/*    }*/
+/*    !*Section*!*/
+/*    .section_about {*/
+/*        gap: 20px;*/
+/*    }*/
+/*}*/
+/*.aProposKasa {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 0 auto;*/
+/*    border-radius: 25px;*/
+/*    !*margin-bottom: 50px;*!*/
+/*    width: 90%;*/
+/*    max-width: 1240px;*/
+/*    height: 223px;*/
+/*    background-image: url('../../assets/about_Kasa.png');*/
+/*    background-size: cover;*/
+/*    object-fit: cover;*/
+/*    !*align-items: center;*!*/
+/*}*/
+.background_img {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    /*background-image: url("../../assets/about_Kasa.png");*/
+    height: 25rem;
+}
+
+
+.background_img img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 3rem;
+    border-radius: 25px;
+}
+
+.accordions {
+    margin: 60px 0 0 auto;
+    /*max-width: 1120px;*/
+
+}
+
+
+
+
+
+
+
+.active {
+    display: flex;
     align-items: center;
-    margin-top : 30px;
-    margin-bottom : 30px;
-    gap: 30px;
-}
-.collapse_about_container{
-    width: 85%;
+    visibility: visible;
+    overflow: visible;
+    padding: 1rem;
+    transition: 0.3s;
+    opacity: 1;
+    border-radius: 5px;
+    background: #f7f7f7;
     font-size: 24px;
+    color: #FF6060;
+    margin-bottom: 20px;
 }
+
+.active {
+    margin: 0 5%;
+}
+
+.false {
+    height: 80px;
+    margin: 0 5%;
+}
+
+.active i {
+    transition: 0.5s;
+}
+
+.false i {
+    transform:rotate(180deg);
+    transition: 0.3s;
+}
+
+/* RESPONSIVE */
+
+
+
+@media (max-width: 799px){
+
+
+
+    .false {
+        height: 80px;
+        margin: 0 5%;
+    }
+
+    .active {
+        margin: 0 5%;
+    }
+
+
+
+    .Accordion .false {
+        width: 90%;
+        margin: 0 5%
+    }
+
+    .Accordion .active {
+        width: 90%;
+        margin: 0 5%;
+        font-size: 12px;
+    }
+
+    .active {
+        font-size: 12px;
+    }
+
+}
+
+/* RESPONSIVE */
+
+
+

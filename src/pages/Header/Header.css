@@ -17,8 +17,8 @@ text-align: right;
   gap: 50px;
   align-items: center;
   text-decoration: none;
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none;
+    /*-webkit-text-decoration-line: none;*/
+    /*        text-decoration-line: none;*/
 }
 .navli{
     color: #FF6060;
@@ -29,15 +29,15 @@ text-align: right;
     line-height: 142.6%;
 }
 .navli :focus {
-    -webkit-text-decoration-line: underline;
+    /*-webkit-text-decoration-line: underline;*/
     text-decoration-line: underline;
     color: #FF6060;
 }
 .nav{
     color:#FF6060;
     text-decoration: none;
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none;
+    /*-webkit-text-decoration-line: none;*/
+    /*        text-decoration-line: none;*/
 }
 
 /********** Tablette **********/
