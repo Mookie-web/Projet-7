@@ -10,7 +10,6 @@
     color: #FF6060;
     font-size: 288px;
     font-weight: 700;
-    /*line-height: 410.69px;*/
     margin : 0;
 }
 
@@ -20,7 +19,6 @@
     color: #FF6060;
     font-weight: 500;
     font-size: 36px;
-    /*line-height: 51.34px;*/
 }
 /*retour à la page d'accueil*/
 .backhome{
@@ -28,7 +26,6 @@
     font-size: 18px;
     line-height: 142.6%;
     display: flex;
-    /*-webkit-text-decoration-line: underline;*/
     text-decoration-line: underline;
     text-align: center;
     margin-top: 8%;
@@ -51,14 +48,9 @@
 
 /************* Mobile *******************/
 @media (max-width: 768px){
-    /*.homepage,.about{*/
-    /*    font-size: 20px;*/
-    /*    padding: 13px 0 13px 10px;*/
-    /*}*/
     .error_text{
         padding-bottom: 6%;
         font-size: 26px;
-        /*line-height: 30.67px;*/
         text-align: center;
         height: 93px;
         width: 84%;

@@ -48,15 +48,7 @@
     font-size: 18px;
     margin-top: 350px;
 }
-
-/*.maybeHide {*/
-/*    display: none;*/
-/*}*/
-
 /* RESPONSIVE */
-
-
-
 @media (max-width: 799px){
 
     .sectionSlider {

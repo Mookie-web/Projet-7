@@ -73,12 +73,7 @@
     background-color: #0000004d;
     background-blend-mode: darken;
 }
-
-
 /* RESPONSIVE */
-
-
-
 @media (max-width: 767px){
 
     .container_section{

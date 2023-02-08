@@ -6,7 +6,6 @@ import AccordionLogement from '../../components/Accordion/AccordionLogement'
 import data from '../../data/logement_data.json'
 import {useParams} from "react-router-dom";
 import Tags from "../../components/Tags/Tags";
-// import Avatar from "../../components/Avatar/Avatar";
 import Rate from "../../components/Rate/Rate";
 import Error404 from "../Error/Error404";
 
@@ -82,39 +81,6 @@ function Fiche() {
                     />
                 </div>
             </section>
-                {/*<div>*/}
-                {/*    <div className='container-info'>*/}
-                {/*            <div>*/}
-                {/*                <div>*/}
-                {/*                    <Location/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <Tags logement={logement}/>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*            <div>*/}
-                {/*                <div>*/}
-                {/*                    <Avatar avatar={logement.host}/>*/}
-                {/*                    <div>*/}
-                {/*                        <Rate rating={logement.rating}/>*/}
-                {/*                    </div>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*    </div>*/}
-
-
-                {/*    <div className="CollapseLogement">*/}
-                {/*        <AccordionLogement title="Description" content={logementDescription} />*/}
-                {/*        <AccordionLogement*/}
-                {/*            title="Equipements"*/}
-                {/*            content={<div className="equipments">{mapLogementEquipement}</div>}*/}
-                {/*        />*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
-
-
-
         </>
     )
 }
