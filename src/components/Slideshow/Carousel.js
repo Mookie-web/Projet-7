@@ -116,8 +116,28 @@ function Slider() {
         setCurrent(current === 0 ? logement.pictures.length - 1 : current - 1);
     }
 
-    if(!logement.pictures || logement.pictures.length <= 0) {
-        return null
+    if(!logement.pictures || logement.pictures.length <= 1) {
+        return (
+            <section className="sectionSlider">
+                <div className='slider'>
+                    {logement.pictures.map((picture, index) => {
+                        return (
+                            <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                                {index === current && (
+                                    <div className="imageSlider"
+                                         style={{
+                                             backgroundImage: `url(${picture})`
+                                         }}>
+                                    </div>
+                                )}
+                            </div>
+                        )
+                    })}
+                </div>
+            </section>
+        );
+
+
     }
 
     return (
